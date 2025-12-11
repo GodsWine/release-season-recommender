@@ -1,4 +1,12 @@
 
+# Ensure 'model' package imports work on Streamlit Cloud
+import sys, os
+from pathlib import Path
+
+# Add the repository root to sys.path so 'model' is importable
+REPO_ROOT = Path(__file__).resolve().parents[1]
+sys.path.append(str(REPO_ROOT))
+
 import streamlit as st
 from model.pipeline import load_model, predict, NotFittedModel
 
@@ -27,3 +35,4 @@ try:
             st.caption(f'Confidence: {conf:.2f}')
 except NotFittedModel:
     st.info('No trained model found yet. Place the public datasets in the repo root and run `python model/train.py` to create `model/artifacts.pkl`. Then re-run the app.')
+
