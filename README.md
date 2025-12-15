@@ -1,4 +1,4 @@
-## Is there a right time to release a sing to make it a Top 10 Hit??🎵🎵🎵
+## Is there a right time to release a song to make it a Top 10 Hit??🎵🎵🎵
 
 New to Data Science, as a fun project to test my skills and attempt to create a model whcih can advise a user when to release a sing based on its attributes :) 
 
@@ -45,6 +45,7 @@ Predict the best season for a music release based on audio features.
 pip install -r requirements.txt
 python model/train.py
 streamlit run app/app.py
+
 
 
 
