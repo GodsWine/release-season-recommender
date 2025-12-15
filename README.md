@@ -1,3 +1,6 @@
+## Is there a right time to release a sing to make it a Top 10 Hit??
+
+
 ## Updated Notebook
 [View the revised notebook here](notebooks/251215%20Final_Notebook%20(1).ipynb)
 
@@ -27,6 +30,7 @@ Predict the best season for a music release based on audio features.
 pip install -r requirements.txt
 python model/train.py
 streamlit run app/app.py
+
 
 
 
