@@ -1,7 +1,7 @@
 
 ## 📓 View the Analysis Notebook
 
-[Open the full notebook here »](251215_Final_Notebook.ipyn[Open the full notebook here »](251215_Final_Notebook.ipynb)
+[Open the full notebook here »](251215 Final_Notebook(1).ipyn[Open the full notebook here »](251215 Final_Notebook(1).ipynb)
 
 
 # 🎵 Release Season Recommender
@@ -29,6 +29,7 @@ Predict the best season for a music release based on audio features.
 pip install -r requirements.txt
 python model/train.py
 streamlit run app/app.py
+
 
 
 
